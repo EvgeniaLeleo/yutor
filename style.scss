@@ -1,0 +1,40 @@
+$circleBgColor: #248456;
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+}
+
+.container {
+  position: relative;
+
+  width: 90vmin;
+  height: 90vmin;
+
+  background-color: #d9d9d9;
+
+  overflow: hidden;
+}
+
+.circle-big {
+  position: absolute;
+  left: -23.5%;
+  top: -26.5%;
+
+  z-index: 0;
+
+  width: 80%;
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+
+  border-radius: 50%;
+
+  background-color: $circleBgColor;
+}
