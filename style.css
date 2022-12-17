@@ -26,4 +26,16 @@
   box-sizing: border-box;
   border-radius: 50%;
   background-color: #248456;
+}
+
+.circle-small {
+  position: absolute;
+  right: 19%;
+  top: 34.2%;
+  z-index: 2;
+  width: 25%;
+  aspect-ratio: 1/1;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: #248456;
 }/*# sourceMappingURL=style.css.map */
