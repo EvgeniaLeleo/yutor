@@ -1,6 +1,7 @@
 $circleBgColor: #248456;
 $rectangleBgColor: #1c3f9b;
 $rectangleRoundedBgColor: #920fbf;
+$triangleBgColor: #ce3607;
 
 .body {
   display: flex;
@@ -28,11 +29,11 @@ $rectangleRoundedBgColor: #920fbf;
 .circle-big {
   position: absolute;
   left: -23.5%;
-  top: -26.5%;
+  top: -26.7%;
 
   z-index: 0;
 
-  width: 80%;
+  width: 80.1%;
   aspect-ratio: 1 / 1;
   box-sizing: border-box;
 
@@ -43,8 +44,8 @@ $rectangleRoundedBgColor: #920fbf;
 
 .circle-small {
   position: absolute;
-  right: 19%;
-  top: 34.2%;
+  right: 19.1%;
+  top: 34.1%;
 
   z-index: 2;
 
@@ -68,7 +69,7 @@ $rectangleRoundedBgColor: #920fbf;
   height: 12%;
   box-sizing: border-box;
 
-  transform: rotate(47deg);
+  transform: rotate(47.15deg);
 
   background-color: $rectangleBgColor;
 }
@@ -76,7 +77,7 @@ $rectangleRoundedBgColor: #920fbf;
 .rectangle-rounded {
   position: absolute;
   left: 12.5%;
-  top: 67.2%;
+  top: 67.1%;
 
   z-index: 2;
 
@@ -87,4 +88,28 @@ $rectangleRoundedBgColor: #920fbf;
   border-radius: 10% / 37.5%;
 
   background-color: $rectangleRoundedBgColor;
+}
+
+.triangle {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  width: 25.2%;
+  height: 27.2%;
+  box-sizing: border-box;
+}
+
+.triangle:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to left top,
+    $triangleBgColor 50%,
+    transparent 50%
+  );
 }
