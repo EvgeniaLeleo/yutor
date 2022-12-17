@@ -1,4 +1,5 @@
 $circleBgColor: #248456;
+$rectangleBgColor: #1c3f9b;
 
 .body {
   display: flex;
@@ -53,4 +54,20 @@ $circleBgColor: #248456;
   border-radius: 50%;
 
   background-color: $circleBgColor;
+}
+
+.rectangle {
+  position: absolute;
+  left: 10.5%;
+  top: 39%;
+
+  z-index: 1;
+
+  width: 80%;
+  height: 12%;
+  box-sizing: border-box;
+
+  transform: rotate(47deg);
+
+  background-color: $rectangleBgColor;
 }

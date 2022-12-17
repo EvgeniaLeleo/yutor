@@ -38,4 +38,16 @@
   box-sizing: border-box;
   border-radius: 50%;
   background-color: #248456;
+}
+
+.rectangle {
+  position: absolute;
+  left: 10.5%;
+  top: 39%;
+  z-index: 1;
+  width: 80%;
+  height: 12%;
+  box-sizing: border-box;
+  transform: rotate(47deg);
+  background-color: #1c3f9b;
 }/*# sourceMappingURL=style.css.map */
